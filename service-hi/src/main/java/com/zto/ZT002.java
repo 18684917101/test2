@@ -1,4 +1,4 @@
-package com.boer;
+package com.zto;
 
 import cn.hutool.core.lang.Validator;
 import cn.hutool.core.util.ArrayUtil;
@@ -9,27 +9,20 @@ import cn.hutool.json.JSONObject;
 import java.util.Arrays;
 
 /**
- * 传感器绑定接口
+ * 绑定主机
  */
-public class Be002 {
+public class ZT002 {
     public static void main(String[] args) {
-        String key="dcdzyFwiLhZKqA89jvPP";
-        String icode="BE002";
+        System.out.println(Validator.isEmpty("111"));
+        String key="dcdz2taxCsbB67OyWy9o";
+        String icode="ZT002";
         //解绑
-//        String data ="{\n" +
-//                "  \"deviceId\": \"869786066442181\",\n" +
-//                "  \"licensePlate\": \"川B11111\",\n" +
-//                "  \"operationTime\": \"2023/10/19 13:12\",\n" +
-//                "  \"tyreLocationInfo\": \"[{\\\"sensorId\\\":\\\"\\\",\\\"tyreLocationId\\\":1}]\"\n" +
-//                "}";
+        //String data ="{\"deviceId\":\"869786066442181\",\"licensePlate\":\"川B11111\",\"operationTime\":\"2023/10/10 15:16\",\"operationType\":\"1\"}";
         //绑定
         String data ="{\n" +
-                "  \"deviceId\": \"869786067774392\",\n" +
-                "  \"licensePlate\": \"川B11111\",\n" +
-                "  \"operationTime\": \"2023/10/19 13:12\",\n" +
-                "  \"tyreLocationInfo\": \"[{\\\"sensorId\\\":\\\"81243469\\\",\\\"tyreLocationId\\\":1}]\"\n" +
+                "    \"pageNum\":1,\"pageSize\":10\n" +
                 "}";
-        String secret="AtXCbBLmcN4hGWOYX4dgPGnIPyUOTe3e";
+        String secret="4EQi16puvxBwsEcpQwnFvSpvnpcz24UJ";
         String nonce =  "11231231";
         JSONObject dataBody = new JSONObject();
         dataBody.put("key", key);

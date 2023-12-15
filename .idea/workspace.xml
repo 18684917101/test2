@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="" />
+    <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/CurlConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/WxCompanySend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be002.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be002.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +92,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -247,26 +263,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hcf/IdeaProjects/chapter1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "07279593606a9d7690b5f467d42e245f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hcf/IdeaProjects/chapter1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;07279593606a9d7690b5f467d42e245f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hcf\IdeaProjects\SpringCloudLearning\chapter1\service-hi\src\main\java\com" />
       <recent name="F:\jianshu\chapter1\service-hi\src\main\resources" />
       <recent name="F:\jianshu\chapter1\eureka-server\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zto" />
+      <recent name="com.wxCompany" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -290,7 +311,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Be002">
+  <component name="RunManager" selected="Application.WxCompanySend">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -452,13 +473,13 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="Be001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boer.Be001" />
+    <configuration name="CurlConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxCompany.CurlConverter" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boer.*" />
+          <option name="PATTERN" value="com.wxCompany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,13 +487,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Be002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boer.Be002" />
+    <configuration name="WxCompanySend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxCompany.WxCompanySend" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boer.*" />
+          <option name="PATTERN" value="com.wxCompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZT001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zto.ZT001" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZT002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zto.ZT002" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -482,6 +531,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wxCompany.test" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxCompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -540,15 +603,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Be002" />
-      <item itemvalue="Application.Be001" />
+      <item itemvalue="Application.CurlConverter" />
+      <item itemvalue="Application.ZT001" />
+      <item itemvalue="Application.ZT002" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.WxCompanySend" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Be002" />
-        <item itemvalue="Application.Be001" />
+        <item itemvalue="Application.WxCompanySend" />
+        <item itemvalue="Application.CurlConverter" />
+        <item itemvalue="Application.ZT002" />
+        <item itemvalue="Application.ZT001" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -566,8 +635,21 @@
       <workItem from="1699864716352" duration="342000" />
       <workItem from="1699865065344" duration="1271000" />
       <workItem from="1699866873402" duration="1055000" />
-      <workItem from="1699927058762" duration="326000" />
+      <workItem from="1699927058762" duration="4127000" />
+      <workItem from="1700013346400" duration="297000" />
+      <workItem from="1700013752930" duration="6000000" />
+      <workItem from="1700200156875" duration="655000" />
+      <workItem from="1700556307894" duration="1628000" />
+      <workItem from="1701137950814" duration="5499000" />
     </task>
+    <task id="LOCAL-00001" summary="测试提交">
+      <created>1699927707021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699927707021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -613,6 +695,21 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/WxCompanySend.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
