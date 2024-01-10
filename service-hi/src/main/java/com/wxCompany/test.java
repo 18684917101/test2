@@ -7,17 +7,26 @@ import cn.hutool.http.HttpRequest;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.util.UriComponents;
+import org.springframework.web.util.UriComponentsBuilder;
 
+import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Map;
 
 @Slf4j
 public class test {
+
+    public static final String FRAGMENT_IDENTIFIER = "?{0}={1}";
     /**
      * 测试企业微信通知.
      */
     public static void main(String[] args) {
-        System.out.println(desensitizedName("黄超凡"));
+        String param = MessageFormat.format(FRAGMENT_IDENTIFIER, "taskId", "3423423");
+
+       String url = "http://sh.sy.tehst.56luntai.com/dache-project/#/project/task";
+
+        System.out.println(url+param);
     }
 
     public static String desensitizedName(String fullName){

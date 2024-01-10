@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/CurlConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/WxCompanySend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/HttpPushBegin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be002.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,6 +284,8 @@
       <recent name="F:\jianshu\chapter1\eureka-server\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bs" />
+      <recent name="com.zk" />
       <recent name="com.zto" />
       <recent name="com.wxCompany" />
     </key>
@@ -311,7 +311,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WxCompanySend">
+  <component name="RunManager" selected="Application.BSTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -473,13 +473,13 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="CurlConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxCompany.CurlConverter" />
+    <configuration name="BS001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs.BS001" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wxCompany.*" />
+          <option name="PATTERN" value="com.bs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,13 +487,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WxCompanySend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxCompany.WxCompanySend" />
+    <configuration name="BSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs.BSTest" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wxCompany.*" />
+          <option name="PATTERN" value="com.bs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -501,13 +501,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZT001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zto.ZT001" />
+    <configuration name="Be001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boer.Be001" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zto.*" />
+          <option name="PATTERN" value="com.boer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -515,13 +515,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZT002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zto.ZT002" />
+    <configuration name="Be002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boer.Be002" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zto.*" />
+          <option name="PATTERN" value="com.boer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -603,20 +603,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CurlConverter" />
-      <item itemvalue="Application.ZT001" />
-      <item itemvalue="Application.ZT002" />
+      <item itemvalue="Application.BSTest" />
+      <item itemvalue="Application.BS001" />
+      <item itemvalue="Application.Be001" />
+      <item itemvalue="Application.Be002" />
       <item itemvalue="Application.test" />
-      <item itemvalue="Application.WxCompanySend" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WxCompanySend" />
-        <item itemvalue="Application.CurlConverter" />
-        <item itemvalue="Application.ZT002" />
-        <item itemvalue="Application.ZT001" />
+        <item itemvalue="Application.BSTest" />
+        <item itemvalue="Application.BS001" />
+        <item itemvalue="Application.Be001" />
+        <item itemvalue="Application.Be002" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -641,6 +641,12 @@
       <workItem from="1700200156875" duration="655000" />
       <workItem from="1700556307894" duration="1628000" />
       <workItem from="1701137950814" duration="5499000" />
+      <workItem from="1702609347242" duration="5623000" />
+      <workItem from="1703213875640" duration="3220000" />
+      <workItem from="1703643710240" duration="1282000" />
+      <workItem from="1704176214380" duration="15417000" />
+      <workItem from="1704699455976" duration="5218000" />
+      <workItem from="1704877629571" duration="2521000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1699927707021</created>
@@ -649,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699927707021</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试提交2">
+      <created>1702609371165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702609371165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -698,7 +711,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
+    <MESSAGE value="测试提交2" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
