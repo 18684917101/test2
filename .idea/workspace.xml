@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/HttpPushBegin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/NotSign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/SignUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/WordOrderPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/MaintenanceWorkAudit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/MaintenanceWorkOrderDetailsToZk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/MaintenanceWorkOrderToZk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/MaterialToZkDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/ZkMaintenanceEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be002.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,31 +269,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hcf/IdeaProjects/chapter1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;07279593606a9d7690b5f467d42e245f&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/hcf/IdeaProjects/chapter1/service-hi/src/main/java/com/zk/vo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "07279593606a9d7690b5f467d42e245f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hcf\IdeaProjects\chapter1\service-hi\src\main\java\com\zk\vo" />
       <recent name="C:\Users\hcf\IdeaProjects\SpringCloudLearning\chapter1\service-hi\src\main\java\com" />
       <recent name="F:\jianshu\chapter1\service-hi\src\main\resources" />
       <recent name="F:\jianshu\chapter1\eureka-server\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bs" />
+      <recent name="com.zk.vo" />
       <recent name="com.zk" />
+      <recent name="com.bs" />
       <recent name="com.zto" />
       <recent name="com.wxCompany" />
     </key>
@@ -311,7 +322,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BSTest">
+  <component name="RunManager" selected="Application.ZKWB003003">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -515,13 +526,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Be002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boer.Be002" />
+    <configuration name="ZKWB003003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zk.ZKWB003003" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boer.*" />
+          <option name="PATTERN" value="com.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZKWB003005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zk.ZKWB003005" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -531,20 +556,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wxCompany.test" />
-      <module name="service-hi" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxCompany.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -603,21 +614,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ZKWB003003" />
+      <item itemvalue="Application.ZKWB003005" />
       <item itemvalue="Application.BSTest" />
       <item itemvalue="Application.BS001" />
       <item itemvalue="Application.Be001" />
-      <item itemvalue="Application.Be002" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BSTest" />
+        <item itemvalue="Application.ZKWB003003" />
+        <item itemvalue="Application.ZKWB003005" />
         <item itemvalue="Application.BS001" />
+        <item itemvalue="Application.BSTest" />
         <item itemvalue="Application.Be001" />
-        <item itemvalue="Application.Be002" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -646,7 +657,9 @@
       <workItem from="1703643710240" duration="1282000" />
       <workItem from="1704176214380" duration="15417000" />
       <workItem from="1704699455976" duration="5218000" />
-      <workItem from="1704877629571" duration="2521000" />
+      <workItem from="1704877629571" duration="7250000" />
+      <workItem from="1705484754936" duration="4458000" />
+      <workItem from="1705799757224" duration="34465000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1699927707021</created>
@@ -662,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702609371165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试提交3">
+      <created>1704880240040</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704880240040</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -709,10 +729,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试提交" />
     <MESSAGE value="测试提交2" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交2" />
+    <MESSAGE value="测试提交3" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

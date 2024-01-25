@@ -15,7 +15,7 @@ public class BS001 {
     public static void main(String[] args) {
         System.out.println(Validator.isEmpty("111"));
         String key="dcdzu78lP6IxbVnFcrsu";
-        String icode="BS001";
+//        String icode="BS001";
         //解绑
         //String data ="{\"deviceId\":\"869786066442181\",\"licensePlate\":\"川B11111\",\"operationTime\":\"2023/10/10 15:16\",\"operationType\":\"1\"}";
         //绑定
@@ -27,7 +27,7 @@ public class BS001 {
         dataBody.put("secret", secret);
         String timeStamp = String.valueOf(System.currentTimeMillis());
         dataBody.put("ts", timeStamp);
-        dataBody.put("icode", icode);
+//        dataBody.put("icode", icode);
         dataBody.put("dataBody", data);
         dataBody.put("nonce", nonce);
         String[] validateArray = new String[] { key, timeStamp, data, nonce};
@@ -36,7 +36,7 @@ public class BS001 {
         dataBody.put("sig", digestHex);
         System.out.println(dataBody);
 //        String response = HttpUtil.post("http://sh.sy.tehst.56luntai.com//dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
-        String response = HttpUtil.post("127.0.0.1:8080/dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
+        String response = HttpUtil.post("127.0.0.1:8080/dache-wmms-admin/api/common/if?icode=BS001", dataBody.toString(), 5 * 1000);
 //        String response = HttpUtil.post("http://www.56dache.com/dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
         System.out.println(response);
     }
