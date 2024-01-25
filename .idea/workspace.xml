@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/NotSign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/SignUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/WordOrderPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/MaintenanceWorkAudit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/MaintenanceWorkOrderDetailsToZk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/MaintenanceWorkOrderToZk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/MaterialToZkDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/vo/ZkMaintenanceEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-hi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -659,7 +646,7 @@
       <workItem from="1704699455976" duration="5218000" />
       <workItem from="1704877629571" duration="7250000" />
       <workItem from="1705484754936" duration="4458000" />
-      <workItem from="1705799757224" duration="34465000" />
+      <workItem from="1705799757224" duration="35219000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1699927707021</created>
@@ -682,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704880240040</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试提交4">
+      <created>1706163574320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706163574320</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -744,7 +738,8 @@
     <MESSAGE value="测试提交" />
     <MESSAGE value="测试提交2" />
     <MESSAGE value="测试提交3" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交3" />
+    <MESSAGE value="测试提交4" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
