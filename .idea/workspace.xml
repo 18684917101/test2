@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/HttpClientExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/QZ005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/QZ006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003005.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003005.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,23 +261,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hcf/IdeaProjects/chapter1/service-hi/src/main/java/com/zk/vo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "07279593606a9d7690b5f467d42e245f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hcf/IdeaProjects/chapter1/service-hi/src/main/java/com/zk/vo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;07279593606a9d7690b5f467d42e245f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hcf\IdeaProjects\chapter1\service-hi\src\main\java\com\zk\vo" />
@@ -281,11 +286,11 @@
       <recent name="F:\jianshu\chapter1\eureka-server\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qz" />
       <recent name="com.zk.vo" />
       <recent name="com.zk" />
       <recent name="com.bs" />
       <recent name="com.zto" />
-      <recent name="com.wxCompany" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -309,7 +314,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZKWB003003">
+  <component name="RunManager" selected="Application.QZ006">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -471,41 +476,41 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="BS001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs.BS001" />
-      <module name="service-hi" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs.BSTest" />
-      <module name="service-hi" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Be001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boer.Be001" />
+    <configuration name="HttpClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boer.HttpClientExample" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.boer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QZ005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qz.QZ005" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QZ006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qz.QZ006" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -601,21 +606,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.QZ005" />
+      <item itemvalue="Application.QZ006" />
+      <item itemvalue="Application.HttpClientExample" />
       <item itemvalue="Application.ZKWB003003" />
       <item itemvalue="Application.ZKWB003005" />
-      <item itemvalue="Application.BSTest" />
-      <item itemvalue="Application.BS001" />
-      <item itemvalue="Application.Be001" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZKWB003003" />
+        <item itemvalue="Application.QZ006" />
+        <item itemvalue="Application.QZ005" />
         <item itemvalue="Application.ZKWB003005" />
-        <item itemvalue="Application.BS001" />
-        <item itemvalue="Application.BSTest" />
-        <item itemvalue="Application.Be001" />
+        <item itemvalue="Application.HttpClientExample" />
+        <item itemvalue="Application.ZKWB003003" />
       </list>
     </recent_temporary>
   </component>
@@ -646,7 +651,11 @@
       <workItem from="1704699455976" duration="5218000" />
       <workItem from="1704877629571" duration="7250000" />
       <workItem from="1705484754936" duration="4458000" />
-      <workItem from="1705799757224" duration="35219000" />
+      <workItem from="1705799757224" duration="35748000" />
+      <workItem from="1706164846510" duration="2208000" />
+      <workItem from="1706518526082" duration="7416000" />
+      <workItem from="1706690991942" duration="644000" />
+      <workItem from="1710135714963" duration="8701000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1699927707021</created>
@@ -676,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706163574320</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试提交4">
+      <created>1706164583258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706164583258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -735,6 +751,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="测试提交" />
     <MESSAGE value="测试提交2" />
     <MESSAGE value="测试提交3" />

@@ -24,16 +24,22 @@ public class ZKWB003005 {
         System.out.println(addTest(total).toString());
         System.out.println(total);
         String key="KKCX";
-        String appSecret = "EdjZVkpbM3Q6K4Gs8MWqBSrDfLhcJM23";
+        //测试
+       // String appSecret = "EdjZVkpbM3Q6K4Gs8MWqBSrDfLhcJM23";
+        //生产
+        String appSecret = "9RHKme8b2QyeC8EYMgB5N5PKwhE7cabk";
+
 
         //String data ="{\"reportName\":\"杨福霞\",\"orderId\":\"ORDER1705281927146185\",\"businessNature\":\"维修\",\"repairPosition\":\"HEAD\",\"carTrailerId\":\"浙H99789\",\"app_key\":\"KKCX\",\"servicerName\":\"卡客畅行（浙江）\",\"servicerSiteName\":\"卡客伴驰（德坤广州驻场）服务站\",\"totalCost\":\"0.00\",\"mileage\":\"25\",\"timestamp\":\"2024-01-22 10:06:29\"}";
 
-        String data ="{\"reportName\":\"杨福霞\",\"orderId\":\"ORDER1705893617975567\",\"sign\":\"52FC99E4ABEF3C38AB3176D48848A89C\",\"businessNature\":\"保养\",\"remark\":\"备注蚊子\",\"repairPosition\":\"HEAD\",\"carTrailerId\":\"浙HC0319\",\"app_key\":\"KKCX\",\"servicerName\":\"卡客畅行（浙江）\",\"servicerSiteName\":\"卡客伴驰（德坤广州驻场）服务站\",\"details\":[{\"serviceContent\":\"工时1\",\"cost\":\"250.00\",\"materials\":[{\"number\":\"5.00\",\"hour_cost\":\"250.00\",\"sum_cost\":\"250.00\",\"detail\":\"配件1\",\"unit_price\":\"50.00\",\"detail_cost\":\"500.00\"}]}],\"totalCost\":\"0.00\",\"mileage\":\"20\",\"timestamp\":\"2024-01-22 11:24:56\"}";
+        String data ="{\"app_key\":\"KKCX\",\"businessNature\":\"保养\",\"carTrailerId\":\"浙H3112挂\",\"details\":[{\"cost\":\"2.00\",\"materials\":[{\"detail\":\"测试\",\"detail_cost\":\"1.00\",\"hour_cost\":\"1.00\"},{\"detail\":\"测试\",\"detail_cost\":\"1.00\",\"number\":\"1.00\",\"sum_cost\":\"1.00\",\"unit_price\":\"1.00\"}],\"serviceContent\":\"测试\"}],\"orderId\":\"ORDER1706524254969237\",\"repairPosition\":\"HANGING\",\"reportName\":\"桑\",\"servicerName\":\"卡客畅行（浙江）信息技术有限公司\",\"servicerSiteName\":\"全国\",\"sign\":\"2E25E02D5C659F3BE7D8CB2FD42DE7D4\",\"timestamp\":\"2024-01-29 18:32:43\",\"totalCost\":\"2.00\"}";
 
         Map<String, Object> resultMap = JSON.parseObject(data, Map.class);
         MaintenanceWorkOrderToZk orderToZk = JSON.parseObject(data, MaintenanceWorkOrderToZk.class);
-        System.out.println("签名1:  "+getSign(resultMap));
+     //   System.out.println("签名1:  "+getSign(resultMap));
         System.out.println("签名2:  "+SignUtil.getSignByMd5ToUpperCase(MaintenanceWorkOrderToZk.class,orderToZk,appSecret,true));
+        orderToZk.setSign(SignUtil.getSignByMd5ToUpperCase(MaintenanceWorkOrderToZk.class,orderToZk,appSecret,true));
+        System.out.println(JSON.toJSONString(orderToZk));
 
     }
 
