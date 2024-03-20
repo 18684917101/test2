@@ -9,17 +9,30 @@ import cn.hutool.json.JSONObject;
 import java.util.Arrays;
 
 /**
- * 绑定主机
+ * 接收主机定位消息
  */
-public class Be001 {
+public class Be004 {
     public static void main(String[] args) {
-        System.out.println(Validator.isEmpty("111"));
         String key="dcdzyFwiLhZKqA89jvPP";
-        String icode="BE001";
-        //解绑
-        String data ="{\"deviceId\":\"869786067774392\",\"licensePlate\":\"川B11111\",\"operationTime\":\"2023/10/10 15:16\",\"operationType\":\"1\"}";
-        //绑定
-//        String data ="{\"deviceId\":\"869786067774392\",\"licensePlate\":\"川B11111\",\"operationTime\":\"2023/10/10 15:16\",\"operationType\":\"0\"}";
+        String icode="BE004";
+        String data ="[\n" +
+                "    {\n" +
+                "        \"Pow\": 4.215,\n" +
+                "        \"Ps\": 1,\n" +
+                "        \"GSM\": 0,\n" +
+                "        \"GPS\": 0,\n" +
+                "        \"SN\": \"864383060262299\",\n" +
+                "        \"Plate\": \"冀RK7957\",\n" +
+                "        \"Type\": 4,\n" +
+                "        \"envTemp\": 8,\n" +
+                "        \"altitude\": 9,\n" +
+                "        \"Time\": \"2024-03-11 13:50:59\",\n" +
+                "        \"Lat\": 119.247663,\n" +
+                "        \"Lng\": 141.928381,\n" +
+                "        \"Speed\": 1,\n" +
+                "        \"Dir\": 0\n" +
+                "    }\n" +
+                "]";
         String secret="AtXCbBLmcN4hGWOYX4dgPGnIPyUOTe3e";
         String nonce =  "11231231";
         JSONObject dataBody = new JSONObject();

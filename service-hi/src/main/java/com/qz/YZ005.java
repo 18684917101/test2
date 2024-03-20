@@ -1,4 +1,4 @@
-package com.boer;
+package com.qz;
 
 import cn.hutool.core.lang.Validator;
 import cn.hutool.core.util.ArrayUtil;
@@ -9,18 +9,37 @@ import cn.hutool.json.JSONObject;
 import java.util.Arrays;
 
 /**
- * 绑定主机
+ * 定位数据
  */
-public class Be001 {
+public class YZ005 {
     public static void main(String[] args) {
-        System.out.println(Validator.isEmpty("111"));
-        String key="dcdzyFwiLhZKqA89jvPP";
-        String icode="BE001";
+        String icode="YZ005";
+        //test
+        String key="dcdzA5ZEMQuzNnM9m4r0";
+        String secret="cpwwBOm5dOXUCFN8iq1YgrLxRmD9PxC3";
+
+        //pro
+//        String key="dcdzHTEcT4TQyn0mho6s";
+//        String secret="n5HTJnLPaZrPqu26tcTGZXyKDJVqWiOE";
         //解绑
-        String data ="{\"deviceId\":\"869786067774392\",\"licensePlate\":\"川B11111\",\"operationTime\":\"2023/10/10 15:16\",\"operationType\":\"1\"}";
+        //String data ="{\"deviceId\":\"869786066442181\",\"licensePlate\":\"川B11111\",\"operationTime\":\"2023/10/10 15:16\",\"operationType\":\"1\"}";
         //绑定
-//        String data ="{\"deviceId\":\"869786067774392\",\"licensePlate\":\"川B11111\",\"operationTime\":\"2023/10/10 15:16\",\"operationType\":\"0\"}";
-        String secret="AtXCbBLmcN4hGWOYX4dgPGnIPyUOTe3e";
+        String data ="[\n" +
+                "    {\n" +
+                "        \"Pow\": 4.215,\n" +
+                "        \"Ps\": 1,\n" +
+                "        \"GSM\": 0,\n" +
+                "        \"GPS\": 0,\n" +
+                "        \"SN\": \"22B012F311\",\n" +
+                "        \"Plate\": \"冀RK7957\",\n" +
+                "        \"Type\": 4,\n" +
+                "        \"Time\": \"2024-03-11 13:50:59\",\n" +
+                "        \"Lat\": 119.247663,\n" +
+                "        \"Lng\": 126.928381,\n" +
+                "        \"Speed\": 1,\n" +
+                "        \"Dir\": 0\n" +
+                "    }\n" +
+                "]";
         String nonce =  "11231231";
         JSONObject dataBody = new JSONObject();
         dataBody.put("key", key);

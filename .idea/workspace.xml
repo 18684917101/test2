@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/HttpClientExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/QZ005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/QZ006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/SF001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003005.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be001.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/QZ005.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/QZ006.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT002.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,11 +289,11 @@
       <recent name="F:\jianshu\chapter1\eureka-server\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sf" />
       <recent name="com.qz" />
+      <recent name="com.boer" />
       <recent name="com.zk.vo" />
       <recent name="com.zk" />
-      <recent name="com.bs" />
-      <recent name="com.zto" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -314,7 +317,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QZ006">
+  <component name="RunManager" selected="Application.Be004">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -476,8 +479,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="HttpClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boer.HttpClientExample" />
+    <configuration name="Be004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boer.Be004" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -490,8 +493,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QZ005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qz.QZ005" />
+    <configuration name="SF001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sf.SF001" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YZ004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qz.YZ004" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -504,8 +521,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QZ006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qz.QZ006" />
+    <configuration name="YZ005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qz.YZ005" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -518,27 +535,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZKWB003003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zk.ZKWB003003" />
+    <configuration name="YZ006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qz.YZ006" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZKWB003005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zk.ZKWB003005" />
-      <module name="service-hi" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zk.*" />
+          <option name="PATTERN" value="com.qz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -606,21 +609,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.QZ005" />
-      <item itemvalue="Application.QZ006" />
-      <item itemvalue="Application.HttpClientExample" />
-      <item itemvalue="Application.ZKWB003003" />
-      <item itemvalue="Application.ZKWB003005" />
+      <item itemvalue="Application.Be004" />
+      <item itemvalue="Application.SF001" />
+      <item itemvalue="Application.YZ004" />
+      <item itemvalue="Application.YZ005" />
+      <item itemvalue="Application.YZ006" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QZ006" />
-        <item itemvalue="Application.QZ005" />
-        <item itemvalue="Application.ZKWB003005" />
-        <item itemvalue="Application.HttpClientExample" />
-        <item itemvalue="Application.ZKWB003003" />
+        <item itemvalue="Application.Be004" />
+        <item itemvalue="Application.SF001" />
+        <item itemvalue="Application.YZ006" />
+        <item itemvalue="Application.YZ005" />
+        <item itemvalue="Application.YZ004" />
       </list>
     </recent_temporary>
   </component>
@@ -655,7 +658,9 @@
       <workItem from="1706164846510" duration="2208000" />
       <workItem from="1706518526082" duration="7416000" />
       <workItem from="1706690991942" duration="644000" />
-      <workItem from="1710135714963" duration="8701000" />
+      <workItem from="1710135714963" duration="17364000" />
+      <workItem from="1710311453329" duration="1833000" />
+      <workItem from="1710379182991" duration="40074000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1699927707021</created>
@@ -692,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706164583258</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试提交5">
+      <created>1710220822404</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710220822404</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -758,7 +770,8 @@
     <MESSAGE value="测试提交2" />
     <MESSAGE value="测试提交3" />
     <MESSAGE value="测试提交4" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交4" />
+    <MESSAGE value="测试提交5" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
