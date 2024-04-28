@@ -1,6 +1,5 @@
-package com.zto;
+package com.bs;
 
-import cn.hutool.core.lang.Validator;
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.http.HttpUtil;
@@ -9,20 +8,22 @@ import cn.hutool.json.JSONObject;
 import java.util.Arrays;
 
 /**
- * 绑定主机
+ * 定位数据
  */
-public class ZT001 {
+public class BE009 {
     public static void main(String[] args) {
-        System.out.println(Validator.isEmpty("111"));
-        String key="dcdz2taxCsbB67OyWy9o";
-        String icode="ZT001";
+        String icode="YZ009";
+        //test
+        String key="dcdzyFwiLhZKqA89jvPP";
+        String secret="AtXCbBLmcN4hGWOYX4dgPGnIPyUOTe3e";
+
+        //pro
+//        String key="dcdzHTEcT4TQyn0mho6s";
+//        String secret="n5HTJnLPaZrPqu26tcTGZXyKDJVqWiOE";
         //解绑
         //String data ="{\"deviceId\":\"869786066442181\",\"licensePlate\":\"川B11111\",\"operationTime\":\"2023/10/10 15:16\",\"operationType\":\"1\"}";
         //绑定
-        String data ="{\n" +
-                "    \"pageNum\":1,\"pageSize\":10\n" +
-                "}";
-        String secret="4EQi16puvxBwsEcpQwnFvSpvnpcz24UJ";
+        String data ="{\"manufacturerId\":5,\"sensorType\":\"内置\",\"sensorId\":\"23213123\",\"sensorPosition\":1,\"commodityCode\":\"4\"}";
         String nonce =  "11231231";
         JSONObject dataBody = new JSONObject();
         dataBody.put("key", key);

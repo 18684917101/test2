@@ -31,7 +31,7 @@ public class YZ005 {
                 "        \"GSM\": 0,\n" +
                 "        \"GPS\": 0,\n" +
                 "        \"SN\": \"22B012F311\",\n" +
-                "        \"Plate\": \"冀RK7957\",\n" +
+                "        \"Plate\": \"赣CBS62挂\",\n" +
                 "        \"Type\": 4,\n" +
                 "        \"Time\": \"2024-03-11 13:50:59\",\n" +
                 "        \"Lat\": 119.247663,\n" +
@@ -54,7 +54,7 @@ public class YZ005 {
         String digestHex = SecureUtil.hmacSha1(secret).digestHex(ArrayUtil.join(validateArray, ""));
         dataBody.put("sig", digestHex);
         System.out.println(dataBody);
-//        String response = HttpUtil.post("http://sh.sy.tehst.56luntai.com//dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
+//        String response = HttpUtil.post("https://sh.sy.tehst.56luntai.com:18886//dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
         String response = HttpUtil.post("127.0.0.1:8080/dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
 //        String response = HttpUtil.post("http://www.56dache.com/dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
         System.out.println(response);

@@ -33,7 +33,7 @@ public class WxCompanySend {
         String btntxt="详情测试";
         //跳转链接
         String url ="https://sh.sy.tehst.56luntai.com/dache-project/#/project/task";
-        String accessToken = "DwCs3J-tDY51oHlxKC1zwAgwfzyMAopzaeC8J8kGgadqmovctp1DT2-kc8QYIfRmVjTQGICBAa9CaqIa-LJEfMEDgO-XazeTQBLnatBs9cF4FgnUHUQkvloVH4GK1DK4geXax4oCKa3L4QrdK9Ft64W_vaoqngtX2mjZDf7jWFdai97tvnGZdnhocxpnb_c6GHrAGd39sbL210g0GHbQVA";
+        String accessToken = "kjS0dd7rBZ0OyQinsLBxUVhrm-jIhFMcYbKsBjcBDV617QUQZHV3OQLTinJaQQ13UUuq9ze_v1HclqDSc-fGDN6cBk7wInvmdh9NMUzFyp-JyckjrPZFOrkX5YWHxC5nbwQ5GbOK4XQSClnk0JNSsAqzDwrX8Tp3k04GEwOWavMeuZKr5gRx52EZzrbfnZMwhEadWuJOOz2SKbxwiCgNSw";
         //消息内容
         String text = "<div class=\"highlight\">"
                 + DateUtil.today()

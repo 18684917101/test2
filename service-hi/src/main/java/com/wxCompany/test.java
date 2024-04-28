@@ -22,9 +22,11 @@ public class test {
      * 测试企业微信通知.
      */
     public static void main(String[] args) {
+
+        System.out.println("11R22.5".equals("11R22.5"));
         String param = MessageFormat.format(FRAGMENT_IDENTIFIER, "taskId", "3423423");
 
-       String url = "http://sh.sy.tehst.56luntai.com/dache-project/#/project/task";
+       String url = "https://sh.sy.tehst.56luntai.com:18886/dache-project/#/project/task";
 
         System.out.println(url+param);
     }

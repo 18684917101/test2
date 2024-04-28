@@ -46,7 +46,7 @@ public class WordOrderPush {
 //        String digestHex = SecureUtil.hmacSha1(secret).digestHex(ArrayUtil.join(validateArray, ""));
 //        dataBody.put("sig", digestHex);
         System.out.println(dataBody);
-//        String response = HttpUtil.post("http://sh.sy.tehst.56luntai.com//dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
+//        String response = HttpUtil.post("https://sh.sy.tehst.56luntai.com:18886//dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
         String response = HttpUtil.post("127.0.0.1:8080/dache-wmms-admin/api/common/if?icode=ZKWB003&key=dcdz3e344lq4Kd6ScAjU&secret=KIQINqwvNiWiM62R5xcD9qrW7ZC1gdWL", dataBody.toString(), 5 * 1000);
 //        String response = HttpUtil.post("http://www.56dache.com/dache-wmms-admin/api/common/if", dataBody.toString(), 5 * 1000);
         System.out.println(response);

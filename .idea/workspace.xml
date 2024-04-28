@@ -5,14 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/SF001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BE008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BE009.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ009.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/Md5SignUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/OkHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/PushSFData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/ThirdpartTempAlarmDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be001.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/QZ005.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/QZ006.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be002.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be003.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be004.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/boer/Be004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ003.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ004.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ005.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ006.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/SF001.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/sf/SF001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/WxCompanySend.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/WxCompanySend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/WordOrderPush.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/WordOrderPush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003003.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zk/ZKWB003003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT001.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT002.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/zto/ZT002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -270,7 +289,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hcf/IdeaProjects/chapter1/service-hi/src/main/java/com/zk/vo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hcf/IdeaProjects/chapter1/service-hi/src/main/java/com/bs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -283,14 +302,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hcf\IdeaProjects\chapter1\service-hi\src\main\java\com\bs" />
       <recent name="C:\Users\hcf\IdeaProjects\chapter1\service-hi\src\main\java\com\zk\vo" />
       <recent name="C:\Users\hcf\IdeaProjects\SpringCloudLearning\chapter1\service-hi\src\main\java\com" />
       <recent name="F:\jianshu\chapter1\service-hi\src\main\resources" />
       <recent name="F:\jianshu\chapter1\eureka-server\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sf" />
       <recent name="com.qz" />
+      <recent name="com.sf" />
       <recent name="com.boer" />
       <recent name="com.zk.vo" />
       <recent name="com.zk" />
@@ -317,7 +337,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Be004">
+  <component name="RunManager" selected="应用程序.YZ006">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -479,13 +499,13 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="Be004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boer.Be004" />
+    <configuration name="BE008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs.BE008" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boer.*" />
+          <option name="PATTERN" value="com.bs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,36 +513,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SF001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sf.SF001" />
-      <module name="service-hi" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YZ004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qz.YZ004" />
-      <module name="service-hi" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YZ005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qz.YZ005" />
+    <configuration name="YZ003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qz.YZ003" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -537,6 +529,34 @@
     </configuration>
     <configuration name="YZ006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qz.YZ006" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YZ008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qz.YZ008" />
+      <module name="service-hi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YZ009" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qz.YZ009" />
       <module name="service-hi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -609,21 +629,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Be004" />
-      <item itemvalue="Application.SF001" />
-      <item itemvalue="Application.YZ004" />
-      <item itemvalue="Application.YZ005" />
-      <item itemvalue="Application.YZ006" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
+      <item itemvalue="应用程序.YZ006" />
+      <item itemvalue="应用程序.BE008" />
+      <item itemvalue="应用程序.YZ003" />
+      <item itemvalue="应用程序.YZ008" />
+      <item itemvalue="应用程序.YZ009" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Be004" />
-        <item itemvalue="Application.SF001" />
-        <item itemvalue="Application.YZ006" />
-        <item itemvalue="Application.YZ005" />
-        <item itemvalue="Application.YZ004" />
+        <item itemvalue="应用程序.YZ006" />
+        <item itemvalue="应用程序.YZ008" />
+        <item itemvalue="应用程序.YZ009" />
+        <item itemvalue="应用程序.BE008" />
+        <item itemvalue="应用程序.YZ003" />
       </list>
     </recent_temporary>
   </component>
@@ -661,6 +681,13 @@
       <workItem from="1710135714963" duration="17364000" />
       <workItem from="1710311453329" duration="1833000" />
       <workItem from="1710379182991" duration="40074000" />
+      <workItem from="1711095464471" duration="6004000" />
+      <workItem from="1711700833933" duration="8184000" />
+      <workItem from="1712821606293" duration="18469000" />
+      <workItem from="1713433576374" duration="7236000" />
+      <workItem from="1713855686751" duration="9730000" />
+      <workItem from="1714111917067" duration="13265000" />
+      <workItem from="1714295674578" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1699927707021</created>
@@ -780,6 +807,21 @@
           <url>file://$PROJECT_DIR$/service-hi/src/main/java/com/wxCompany/WxCompanySend.java</url>
           <line>69</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-hi/src/main/java/com/bs/BS001.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-hi/src/main/java/com/sf/SF001.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-hi/src/main/java/com/qz/YZ003.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

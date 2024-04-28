@@ -37,7 +37,7 @@ public class ZKWB003003 {
         dataBody.setSign( SignUtil.getSignByMd5ToUpperCase(ZkMaintenanceEntity.class,dataBody,zkSecret,true));
 
         String url ="127.0.0.1:8080/dache-wmms-admin/api/common/if?icode=ZKWB003&key=dcdz3e344lq4Kd6ScAjU&ts=" + timeStamp + "&nonce=" + nonce;
-//        String url ="http://sh.sy.tehst.56luntai.com/dache-wmms-admin/api/common/if?icode=ZKWB003&key=dcdz3e344lq4Kd6ScAjU&ts=" + timeStamp + "&nonce=" + nonce;
+//        String url ="https://sh.sy.tehst.56luntai.com:18886/dache-wmms-admin/api/common/if?icode=ZKWB003&key=dcdz3e344lq4Kd6ScAjU&ts=" + timeStamp + "&nonce=" + nonce;
         System.out.println(dataBody);
         HttpRequest request = HttpRequest.post(url)
                 .header("Content-Type", "application/json")  // 设置请求头为 application/json
