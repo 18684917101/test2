@@ -62,7 +62,7 @@ public class SignUtil {
      * @return true -> 计入 false -> 不计入
      */
     private static boolean isFieldSign(Object date, Field field, NotSign notSign) throws IllegalAccessException {
-        if (StringUtils.isEmpty(field.get(date))) {
+        if (field.get(date) == null) {
             return false;
         }
         return notSign == null;
