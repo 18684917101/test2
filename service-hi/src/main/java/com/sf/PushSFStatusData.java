@@ -2,6 +2,7 @@ package com.sf;
 
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.fastjson.JSONObject;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.sf.entity.SFPushStatus;
 
@@ -19,10 +20,23 @@ import java.util.stream.Collectors;
 
 public class PushSFStatusData {
 
+    /**
+     * select
+     *   pressure_sensor_id sensorNo,
+     *   license_plate carrierNo,
+     *   receipt_Time upTime,
+     *   gmt_Create initDate,
+     *   is_receive_data_timeout sensorStatus
+     * from
+     *   device_tyre_pressure_last
+     * WHERE license_plate in  ()
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
 
         // 创建一个输入流，将 Excel 文件读取出来
-        InputStream inputStream = new FileInputStream("C:\\Users\\hcf\\Desktop\\pushSF0513.xlsx");
+        InputStream inputStream = new FileInputStream("C:\\Users\\hcf\\Desktop\\pushSF0528.xlsx");
 
         List<SFPushStatus> tmpList = EasyExcel.read(inputStream)
                 // 设置与Excel表映射的类
@@ -56,25 +70,30 @@ public class PushSFStatusData {
                 .collect(Collectors.toList());
 
 
+        List<List<List<SFPushStatus>>> partition = Lists.partition(groupedList, 100);
+        for (List<List<SFPushStatus>> lists : partition) {
+            Date now = new Date();
+            long timestamp = now.getTime();
+            //test
+//        String appSecret = "1pJkS09dNn6tt";
+//        String url ="https://gis-rss-scm-stsoc.sit.sf-express.com:48020/stsoc";
+
+            //pro
+            String appSecret = "opW79kLM78Sp";
+            String url ="https://gis-rss-scm-stsoc.sf-express.com/stsoc";
+            Map<String, Object> paramsHeader = Maps.newHashMap();
+            paramsHeader.put("appid", "DCDZ");
+            paramsHeader.put("timestamp",timestamp+"");
+            String sign = Md5SignUtil.signRequest(paramsHeader,appSecret);
+            paramsHeader.put("sign",sign);
+
+            String res = OkHttpClient.syncPostHeader(url+"/openapi/pushStatus",paramsHeader, JSONObject.toJSONString(lists));
+            //    System.out.println(res);
+
+        }
 
 
-        Date now = new Date();
-        long timestamp = now.getTime();
-        //test
-        String appSecret = "1pJkS09dNn6tt";
-        String url ="https://gis-rss-scm-stsoc.sit.sf-express.com:48020/stsoc";
 
-        //pro
-//        String appSecret = "opW79kLM78Sp";
-//        String url ="https://gis-rss-scm-stsoc.sf-express.com/stsoc";
-        Map<String, Object> paramsHeader = Maps.newHashMap();
-        paramsHeader.put("appid", "DCDZ");
-        paramsHeader.put("timestamp",timestamp+"");
-        String sign = Md5SignUtil.signRequest(paramsHeader,appSecret);
-        paramsHeader.put("sign",sign);
-
-        String res = OkHttpClient.syncPostHeader(url+"/openapi/pushStatus",paramsHeader, JSONObject.toJSONString(groupedList));
-    //    System.out.println(res);
     }
 
 
